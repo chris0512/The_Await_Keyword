@@ -8,7 +8,7 @@
 
 async function getPlanets(){
     try {
-        const res =  await axios.get('https://swapi.dev/api/planetssf/');
+        const res =  await axios.get('https://swapi.dev/api/planets/');
         console.log(res.data);
     } catch(e) {
         console.log('IN catch!', e);
